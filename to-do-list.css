@@ -118,3 +118,29 @@
     ::-webkit-scrollbar-thumb {
       background: #fff;
     }
+
+    /* responsive */
+
+    @media (max-width: 480px) {
+      .box {
+        padding: 15px;
+      }
+      h2 {
+        font-size: 1.5em;
+      }
+      #inputbox {
+        font-size: 0.9em;
+      }
+    }
+    
+    @media (max-width: 374px) {
+      .box {
+        padding: 10px;
+      }
+      h2 {
+        font-size: 1.2em;
+      }
+      #inputbox {
+        font-size: 0.8em;
+      }
+    }
